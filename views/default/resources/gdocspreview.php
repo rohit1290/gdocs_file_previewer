@@ -2,7 +2,7 @@
 // Read the URI parameters based on <siteurl>/gdocspreview/param1/param2
 $file_guid = elgg_extract('guid', $vars, 0);
 $token = elgg_extract('guid', $vars, 0);
-$timestamp = intval(elgg_extract('timestamp', $vars, 0););
+$timestamp = intval(elgg_extract('timestamp', $vars, 0));
 
 $ia = elgg_set_ignore_access(true);
 $file = get_entity($file_guid);
