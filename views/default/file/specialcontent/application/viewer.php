@@ -1,6 +1,6 @@
 <?php
 
-if (!elgg_instanceof($vars['entity'])) {
+if (!$vars['entity'] instanceof ElggFile) {
 	return;
 }
 

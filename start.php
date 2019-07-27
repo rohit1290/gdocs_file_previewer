@@ -8,14 +8,14 @@ function gdocs_file_previewer_init() {
 	elgg_register_plugin_hook_handler('public_pages', 'walled_garden', 'expages_public_pages');
 }
 
-function expages_public_pages($hook, $type, $return_value, $params) {
+function expages_public_pages() {
 	$allowed_pages = array();
 	$allowed_pages[] = 'gdocspreview/*.*/*.*';
 	return $allowed_pages;
 }
 
 function gdocs_file_previewer_get_token($file, $timestamp) {
-	if (!elgg_instanceof($file) || !is_numeric($timestamp)) {
+	if (!$file instanceof ElggFile || !is_numeric($timestamp)) {
 		return false;
 	}
 
