@@ -9,7 +9,7 @@ function gdocs_file_previewer_init() {
 }
 
 function expages_public_pages() {
-	$allowed_pages = array();
+	$allowed_pages = [];
 	$allowed_pages[] = 'gdocspreview/*.*/*.*';
 	return $allowed_pages;
 }
