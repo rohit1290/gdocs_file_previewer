@@ -6,4 +6,3 @@ if ($wordc_setting == 1) {
 	include "viewer.php";
 }
 
-?>

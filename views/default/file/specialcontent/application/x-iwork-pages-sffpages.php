@@ -4,4 +4,3 @@
 if ($ipages_setting == 1) {
 	include "viewer.php";
 }
-?>

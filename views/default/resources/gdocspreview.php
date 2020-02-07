@@ -47,4 +47,4 @@ elgg_call(ELGG_IGNORE_ACCESS, function() use ($file_guid, $token, $timestamp) {
 	flush();
 	readfile($file->getFilenameOnFilestore());
 });
-	?>
+	

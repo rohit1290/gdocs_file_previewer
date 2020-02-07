@@ -6,4 +6,3 @@ if ($pdf_setting == 1) {
 	include "viewer.php";
 }
 
-?>

@@ -4,4 +4,3 @@
 if ($eps_setting == 1) {
 	include "viewer.php";
 }
-?>

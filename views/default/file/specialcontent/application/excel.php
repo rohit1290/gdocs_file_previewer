@@ -6,4 +6,3 @@ if ($excel_setting == 1) {
 	include "viewer.php";
 }
 
-?>
