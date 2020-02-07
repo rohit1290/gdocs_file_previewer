@@ -1,12 +1,4 @@
-<?php
-
-elgg_register_event_handler('init', 'system', 'gdocs_file_previewer_init');
-
-function gdocs_file_previewer_init() {
-	// We will create a special publicly accessible URL that Google Docs Viewer
-	// can use to preview the file temporarily.
-	elgg_register_plugin_hook_handler('public_pages', 'walled_garden', 'expages_public_pages');
-}
+<?php 
 
 function expages_public_pages() {
 	$allowed_pages = [];
