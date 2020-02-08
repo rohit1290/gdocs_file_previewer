@@ -3,7 +3,7 @@
 	<name>GDocs File Previewer</name>
 	<id>gdocs_file_previewer</id>
 	<author>Rohit Gupta, Thomas Yung</author>
-	<version>3.2.0</version>
+	<version>3.2.1</version>
 	<description>This plugin lets users preview MS Office files (doc, docx, xls, xlsx, ppt, pptx), Apple iWork pages, Adobe eps, and zip files using the Google Docs File Viewer.</description>
 	<requires>
 		<type>elgg_release</type>
