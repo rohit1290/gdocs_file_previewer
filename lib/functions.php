@@ -11,8 +11,7 @@ function gdocs_file_previewer_get_token($file, $timestamp) {
 		return false;
 	}
 
-	$secret = rand();
-	return sha1($file->guid . $secret . $timestamp);
+	return sha1($file->guid . $timestamp);
 }
 
 
